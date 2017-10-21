@@ -1,5 +1,5 @@
 # GPG / PGP Commands
-=====================
+
 
 Gpg4win is a Windows version of GnuPG.
 
@@ -7,13 +7,13 @@ https://gnupg.org/
 
 https://www.gpg4win.org/
 
-# Generate a key pair
+* __Generate a key pair__
 gpg --gen-key 
 
-# List all public keys 
+* __List all public keys__
 gpg --list-keys 
 
-# List all private keys 
+** List all private keys **
 gpg --list-secret-keys
 
 # Change a pass-phrase 
