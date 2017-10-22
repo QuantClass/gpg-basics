@@ -1,8 +1,10 @@
 # GPG (OpenPGP) Commands
 
-OpenPGP is the most widely used email encryption standard. The OpenPGP protocol defines standard formats for encrypted messages, signatures, and certificates for exchanging public keys. It is defined by the OpenPGP Working Group of the Internet Engineering Task Force (IETF) as a Proposed Standard in RFC 4880. Gpg4win is a Windows version of GnuPG. Learn more at:
+OpenPGP (Pretty Good Privacy) is the most widely used email encryption standard. The OpenPGP protocol defines standard formats for encrypted messages, signatures, and certificates for exchanging public keys. It is defined by the OpenPGP Working Group of the Internet Engineering Task Force (IETF) as a Proposed Standard in RFC 4880. GnuPG is a complete and free implementation of the OpenPGP standard. Gpg4win is a Windows version of GnuPG. Learn more at:
 
 http://openpgp.org/
+
+https://www.ietf.org/rfc/rfc4880.txt
 
 https://gnupg.org/
 
@@ -10,11 +12,9 @@ https://www.gpg4win.org/
 
 ## Examples of use 
 
-* __Generate a key pair__
-gpg --gen-key 
+* __Generate a key pair__ `gpg --gen-key` 
 
-* __List all public keys__
-gpg --list-keys 
+* __List all public keys__ `gpg --list-keys` 
 
 * __List all private keys__
 gpg --list-secret-keys
