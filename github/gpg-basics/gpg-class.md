@@ -3,15 +3,15 @@
 Email privacy is an important step to ensure that your communication is safe from prying eyes.
 These are the steps to generate and manage the key pair (public and private) for user _support@quantclass.com_. There are GUI versions of the key management tools, such as GPG Keychain on MacOS and Kleopatra for Linux and Windows. Kleopatra is a certificate manager and a universal crypto GUI that supports managing both X.509 and OpenPGP certificates. In this class we will use the command-line version of the tools, as this gives you more freedom.
 
-First, download the tools from   
+First, download the tools from:   
 
 https://gnupg.org/
 
 https://www.gpg4win.org/
 
-to follow-up with us.
+and follow-up with us by typing the commands on your console.
 
-**You will learn faster if you do it yourself**.
+**You will learn faster if you do it yourself instead of just watching.**
 
 The main commands are:
 
